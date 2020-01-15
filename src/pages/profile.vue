@@ -18,7 +18,7 @@ export default {
       spinnerColor: "red",
       spinner: QSpinnerCube
     });
-    let url = `http://www.json-generator.com/api/json/get/bQIAQJuZgy?indent=0${this.$route.params.id}`;
+    let url = `http://www.json-generator.com/api/json/get/cpICphwtea?indent=2${this.$route.params.id}`;
     this.$axios
       .get(url)
       .then(val => {
